@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "26493145352",
+    "project_id": "easyworkscrud",
+    "storage_bucket": "easyworkscrud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26493145352:android:99c9fea9fba7b7bf771cbd",
+        "android_client_info": {
+          "package_name": "com.example.easyworkscrud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26493145352-6ve4gu9i99dueevaid7r74fhmkg2iscb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvHyGx6EVWm5F2B32sg3tCN8lrG7F-XF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26493145352-6ve4gu9i99dueevaid7r74fhmkg2iscb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

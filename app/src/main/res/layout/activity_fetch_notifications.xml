@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#003F51B5"
+    android:orientation="vertical"
+    tools:context="com.example.easyworks.activities.FetchNotifications">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="417dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="542dp"
+        android:layout_marginBottom="2dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#113B4DB3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/wave__9_" />
+
+        <ImageButton
+            android:id="@+id/homenotselbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="#02FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_home_24_notsel"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/ratenotselbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="334dp"
+            android:layout_marginTop="82dp"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_stars_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/profnotselbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="253dp"
+            android:layout_marginTop="82dp"
+            android:backgroundTint="#03FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_account_circle_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/notifynotselbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="173dp"
+            android:layout_marginTop="82dp"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_notifications_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/servicenotselbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="265dp"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_support_agent_24_notsel"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="395dp"
+        android:layout_height="261dp"
+        android:layout_marginTop="1dp"
+        android:contentDescription="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="900dp"
+
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <!--        <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="201dp"
+                    android:layout_height="114dp"
+                    android:layout_marginBottom="51dp"
+                    android:contentDescription="TODO"
+                    app:layout_constraintBottom_toBottomOf="@+id/imagebackprofile"
+                    app:layout_constraintEnd_toEndOf="@+id/imagebackprofile"
+                    app:layout_constraintStart_toStartOf="@+id/imagebackprofile"
+                    app:layout_constraintTop_toBottomOf="@+id/imagebackprofile"
+                    app:srcCompat="@drawable/profilepic" /> -->
+
+                <RelativeLayout
+                    android:layout_width="362dp"
+                    android:layout_height="244dp"
+
+                    android:orientation="vertical"
+
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="24dp"
+                    tools:layout_editor_absoluteY="16dp">
+
+
+                    <TextView
+
+                        android:id="@+id/tvServiceTitle"
+                        android:layout_width="326dp"
+                        android:layout_height="80dp"
+
+
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="20dp"
+                        android:text=""
+
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvprice"
+                        android:layout_width="351dp"
+                        android:layout_height="80dp"
+
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="80dp"
+
+                        android:padding="20dp"
+                        android:text=""
+                        android:textColor="@color/black"
+
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvname"
+                        android:layout_width="match_parent"
+                        android:layout_height="82dp"
+
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="150dp"
+
+                        android:padding="20dp"
+                        android:text=""
+                        android:textColor="@color/black"
+
+                        android:textSize="16sp" />
+
+
+                </RelativeLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="349dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="156dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/notification_on_smartphone_vector_45940103" />
+
+    <Button
+        android:id="@+id/getservicebtn1"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="272dp"
+        android:text="Get Service"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

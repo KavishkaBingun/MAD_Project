@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EasyWorksCRUD"
+        tools:targetApi="31">
+        <activity
+            android:name="com.example.easyworks.activities.FetchNotifications"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.easyworks.activities.CustomerDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.easyworks.activities.FetchingAct"
+            android:exported="false" />
+        <activity
+            android:name="com.example.easyworks.activities.InsertionActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.easyworks.activities.dashboard1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.easyworks.activities.Login" />
+        <activity android:name="com.example.easyworks.activities.Registration" />
+        <activity android:name="com.example.easyworks.activities.Profile" />
+        <activity android:name="com.example.easyworks.activities.UpdateLoginpassword" />
+        <activity android:name="com.example.easyworks.activities.SignupActivity" />
+        <activity android:name="com.example.easyworks.activities.Accountsettings" />
+
+        <activity android:name="com.example.easyworks.activities.TestSingin" />
+        <activity android:name="com.example.easyworks.activities.FetActivity1" />
+        <activity
+            android:name="com.example.easyworks.activities.Service_Notification"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.example.easyworks.activities.Notification1"
+            android:enabled="true" />
+
+        <activity
+            android:name="com.example.easyworks.activities.ViewServices"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.easyworks.activities.ServiceDetailsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.easyworks.activities.addService"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name="com.example.easyworks.activities.FetchAllNotifications" />
+        <activity
+            android:name="com.example.easyworks.activities.GetService"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

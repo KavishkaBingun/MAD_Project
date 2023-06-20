@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnInsertData" type="id" />
+    <item name="btnFetchData" type="id" />
+    <item name="etCusName" type="id" />
+    <item name="etCusEmail" type="id" />
+    <item name="etCusPhone" type="id" />
+    <item name="etCusReview" type="id" />
+    <item name="tvCusName" type="id" />
+    <item name="tvCusId" type="id" />
+    <item name="tvCusEmail" type="id" />
+    <item name="tvCusPhone" type="id" />
+    <item name="tvCusReview" type="id" />
+    <item name="fetchingview1" type="id" />
+</resources>
