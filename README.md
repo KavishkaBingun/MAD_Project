@@ -21,7 +21,7 @@ This is an Android app designed to tackle economic challenges by offering freela
 - Version Control(Git)
 
 # User Interfaces
-![Dashboard](images/dashboard.png)
+![Dashboard](Images/dashboard.png)
 
 
 
