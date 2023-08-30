@@ -11,7 +11,7 @@ This is my 2nd year 2nd semester mini project named "Easy Works" regarding Mobil
 Easy Works
 
 # Description
-This is an Android app designed to tackle economic challenges by offering freelancing services. It has two user types: freelancers and customers. Both need to sign up to use the app. Freelancers can showcase their skills by listing services they offer. Customers can browse these services, choose what they need, and easily communicate with freelancers through messages and calls
+This is an Android app designed to tackle economic challenges by offering freelancing services. It has two user types: freelancers and customers. Both need to sign up to use the app. Freelancers can showcase their skills by listing services they offer. Customers can browse these services, choose what they need, and easily communicate with freelancers through messages and calls.
 
 # Tools Technologies
 - Android Studio
