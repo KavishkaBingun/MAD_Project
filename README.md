@@ -2,9 +2,9 @@
 This is my 2nd year 2nd semester mini project named "Easy Works" regarding Mobile Application Development module done by kotlin language. 
 
 # Table of Contents
-- [App Name](#app_name)
+- [App Name](#app-name)
 - [Description](#description)
-- [Tools Technologies](#tools_technologies)
+- [Tools Technologies](#tools-technologies)
 - [User Interfaces](#user-interfaces)
 
 # App Name
