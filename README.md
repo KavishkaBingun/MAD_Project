@@ -4,7 +4,7 @@ This is my 2nd year 2nd semester mini project named "Easy Works" regarding Mobil
 # Table of Contents
 - [App Name](#app_name)
 - [Description](#description)
-- [Tools Technologies](#tools_and_technologies)
+- [Tools Technologies](#tools_technologies)
 - [User Interfaces](#user-interfaces)
 
 # App Name
