@@ -22,7 +22,7 @@ This is an Android app designed to tackle economic challenges by offering freela
 
 # User Interfaces
 ![Dashboard](Images/dashboard.png) 
-<img src="Images/dashboard.png" alt="Dashboard" width="100">
+<img src="Images/dashboard.png" alt="Dashboard" width="20" height="50">
 ![Login](Images/login.png)
 ![Home](Images/home.png)
 ![Add Service](Images/addservice.png)
