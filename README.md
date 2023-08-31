@@ -22,7 +22,15 @@ This is an Android app designed to tackle economic challenges by offering freela
 
 # User Interfaces
 ![Dashboard](Images/dashboard.png)
+![Login](Images/login.png)
+![Home](Images/home.png)
 ![Add Service](Images/addservice.png)
+![Notification_creator](Images/notificationcreator.png)
+![Notification](Images/notification.png)
+![Contact_seller](Images/contactseller.png)
+![Call](Images/call.png)
+![Message](Images/message.png)
+
 
 
 
