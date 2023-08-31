@@ -23,18 +23,18 @@ This is an Android app designed to tackle economic challenges by offering freela
 # User Interfaces
 <p align="left">
   <img src="Images/dashboard.png" alt="Dashboard" width="250" height="500"  />
-  <img src="Images/login.png" alt="Login" width="250" height="400" style="margin: 0px 50px;" />
-   <img src="Images/home.png" alt="Home" width="250" height="400" style="margin: 0px 50px;" />
+  <img src="Images/login.png" alt="Login" width="250" height="500" style="margin: 0px 80px;" />
+   <img src="Images/home.png" alt="Home" width="250" height="500" style="margin: 0px 80px;" />
 </p>
 <p align="left">
   <img src="Images/addservice.png" alt="Add Service" width="250" height="500" />
-  <img src="Images/notificationcreator.png" alt="Notification_creator" width="250" height="500" style="margin: 0px 50px;" />
-   <img src="Images/notification.png" alt="Notification" width="250" height="500" style="margin: 0px 50px;" />
+  <img src="Images/notificationcreator.png" alt="Notification_creator" width="250" height="500" style="margin: 0px 80px;" />
+   <img src="Images/notification.png" alt="Notification" width="250" height="500" style="margin: 0px 80px;" />
 </p>
 <p align="left">
   <img src="Images/contactseller.png" alt="Contact_seller" width="250" height="500" />
-  <img src="Images/call.png" alt="Call" width="250" height="500" style="margin: 0px 50px;" />
-   <img src="Images/message.png" alt="Message" width="250" height="500" style="margin: 0px 50px;" />
+  <img src="Images/call.png" alt="Call" width="250" height="500" style="margin: 0px 80px;" />
+   <img src="Images/message.png" alt="Message" width="250" height="500" style="margin: 0px 80px;" />
 </p>
 
 
