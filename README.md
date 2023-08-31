@@ -22,18 +22,22 @@ This is an Android app designed to tackle economic challenges by offering freela
 
 # User Interfaces
 <p align="left">
-  <img src="Images/dashboard.png" alt="Dashboard" width="150" height="300" />
-  <img src="Images/login.png" alt="Login" width="150" height="300" />
+  <img src="Images/dashboard.png" alt="Dashboard" width="200" height="400" />
+  <img src="Images/login.png" alt="Login" width="200" height="400" />
+   <img src="Images/home.png" alt="Home" width="200" height="400" />
+</p>
+<p align="left">
+  <img src="Images/addservice.png" alt="Add Service" width="200" height="400" />
+  <img src="Images/notificationcreator.png" alt="Notification_creator" width="200" height="400" />
+   <img src="Images/notification.png" alt="Notification" width="200" height="400" />
+</p>
+<p align="left">
+  <img src="Images/contactseller.png" alt="Contact_seller" width="200" height="400" />
+  <img src="Images/call.png" alt="Call" width="200" height="400" />
+   <img src="Images/message.png" alt="Message" width="200" height="400" />
 </p>
 
 
-![Home](Images/home.png)
-![Add Service](Images/addservice.png)
-![Notification_creator](Images/notificationcreator.png)
-![Notification](Images/notification.png)
-![Contact_seller](Images/contactseller.png)
-![Call](Images/call.png)
-![Message](Images/message.png)
 
 
 
