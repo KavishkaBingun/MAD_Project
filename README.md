@@ -21,8 +21,8 @@ This is an Android app designed to tackle economic challenges by offering freela
 - Version Control(Git)
 
 # User Interfaces
-<img src="Images/dashboard.png" alt="Dashboard" width="150" height="300">
-<img src="Images/login.png" alt="Login" width="150" height="300">
+<img src="Images/dashboard.png" alt="Dashboard" width="150" height="300"> <img src="Images/login.png" alt="Login" width="150" height="300">
+
 ![Home](Images/home.png)
 ![Add Service](Images/addservice.png)
 ![Notification_creator](Images/notificationcreator.png)
